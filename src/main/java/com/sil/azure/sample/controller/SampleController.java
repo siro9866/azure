@@ -16,5 +16,10 @@ public class SampleController {
         return "Sample 2";
     }
 
+    @GetMapping("/sample/3")
+    public String sample3(){
+        return "Sample 3";
+    }
+
 
 }
